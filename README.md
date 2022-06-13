@@ -63,7 +63,7 @@
 * user
    |名稱|型態|預設值|A_I|備註| 
    |--|--|--|--|--|
-   |ID|int(11)|--|ture|序號|
+   |id|int(11)|--|ture|序號|
    |帳號(acc)|varchar(12)|--|--|帳號|
    |密碼(pw)|varchar(16)|--|--|--|
    |姓名(name)|varchar(12)|--|--|--|
@@ -74,3 +74,33 @@
    |身分證(idcard)|varchar(12)|--|--|--|
    |信箱(e-mail)|varchar(64)|--|--|--|
    |手機(phone)|varchar(12)|--|--|--|
+* subjects
+   |名稱|型態|預設值|A_I|備註| 
+   |--|--|--|--|--|
+   |id|int(11)|--|ture|序號|
+   |subject|varchar(128)|--|--|主題描述|
+   |type_id|int(11)|--|--|
+   |start|--|--|--|
+   |end|--|--|--|
+* option
+   |名稱|型態|預設值|A_I|備註| 
+   |--|--|--|--|--|
+   |id|int(11)|--|ture|序號|
+   |option|varchar(128)|--|--|主題描述|
+   |subject_id|int(11)|--|--|--|
+   |total|int(11)|--|--|--|
+* log
+   |名稱|型態|預設值|A_I|備註| 
+   |--|--|--|--|--|
+   |id|int(11)|--|ture|序號|
+   |user_id|int(11)|--|--|投票者|
+   |subject_id|int(11)|--|--|--|
+   |option_id|int(11)|--|--|--|
+   |vote_time|timestamp|--|--|--|
+
+* type
+   |名稱|型態|預設值|A_I|備註| 
+   |--|--|--|--|--|
+   |id|int(11)|--|ture|序號|
+   |name|varchar(128)|--|--|分類名稱|
+   
