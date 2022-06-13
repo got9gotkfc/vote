@@ -61,15 +61,15 @@
 ## 資料表設計
 ### 資料庫名稱:vote
 * user
-|名稱      |型態    |預設值  |A_I|備註| 
-|ID        |int(11)|--|ture|序號|
-|帳號(acc) |varchar(12)|--|--|帳號|
-|密碼(pw)  |varchar(16)|--|--|--|
-|姓名(name)|varchar(12)|--|--|--|
-|性別(gender)|tinyint(1)|--|--|--|
-|生日(birthday)|date|--|--|--|
-|學歷(eduction)|varchar(32)|--|--|--|
-|住址(addr)|varchar(64)|--|--|--|
-|身分證(idcard)|varchar(12)|--|--|--|
-|信箱(e-mail)|varchar(64)|--|--|--|
-|手機(phone)|varchar(12)|--|--|--|
+   |名稱      |型態    |預設值  |A_I|備註| 
+   |ID        |int(11)|--|ture|序號|
+   |帳號(acc) |varchar(12)|--|--|帳號|
+   |密碼(pw)  |varchar(16)|--|--|--|
+   |姓名(name)|varchar(12)|--|--|--|
+   |性別(gender)|tinyint(1)|--|--|--|
+   |生日(birthday)|date|--|--|--|
+   |學歷(eduction)|varchar(32)|--|--|--|
+   |住址(addr)|varchar(64)|--|--|--|
+   |身分證(idcard)|varchar(12)|--|--|--|
+   |信箱(e-mail)|varchar(64)|--|--|--|
+   |手機(phone)|varchar(12)|--|--|--|
