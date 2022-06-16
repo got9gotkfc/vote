@@ -74,19 +74,30 @@
    |身分證(idcard)|varchar(12)|--|--|--|
    |信箱(e-mail)|varchar(64)|--|--|--|
    |手機(phone)|varchar(12)|--|--|--|
+   |年齡(reg_date)|date|--|--|--|
+* admins
+   |名稱|型態|預設值|A_I|備註| 
+   |--|--|--|--|--|
+   |id|int(11)|--|ture|序號|
+   |帳號(acc)|varchar(12)|--|--|帳號|
+   |密碼(pw)|varchar(16)|--|--|--|
+   |姓名(name)|varchar(12)|--|--|--|
 * subjects
    |名稱|型態|預設值|A_I|備註| 
    |--|--|--|--|--|
    |id|int(11)|--|ture|序號|
    |subject|varchar(128)|--|--|主題描述|
-   |type_id|int(11)|--|--|
-   |start|--|--|--|
-   |end|--|--|--|
-* option
+   |type_id|int(11)|--|--|--|
+   |multiple|boolean(1)|--|--|單/複選|
+   |mulit_limit|tinyint(2)|1|--|單/複選項目數|
+   |start|date|--|--|--|
+   |end|date|--|--|--|
+   |total|int(11)|--|--|--|
+* options
    |名稱|型態|預設值|A_I|備註| 
    |--|--|--|--|--|
    |id|int(11)|--|ture|序號|
-   |option|varchar(128)|--|--|主題描述|
+   |option|varchar(128)|--|--|選項描述|
    |subject_id|int(11)|--|--|--|
    |total|int(11)|--|--|--|
 * log
